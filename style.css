@@ -1,0 +1,43 @@
+#headPicc {
+    width: 100%;
+    mask-repeat: no-repeat;
+}
+
+.GF {
+    align-content: center;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+#pic2 {
+    width: 75%;
+    margin-top: 100px;
+}
+
+p {
+    font-size: 30px;
+}
+
+#cfooter {
+    margin-top: 100px;
+}
+
+#logo {
+    width: 100px;
+    height: 120px;
+}
+#logo1 {
+    width: 50px;
+    height: 50px;
+}
+
+
+#footerpad {
+    align-content: center;
+    font-size: 25px;
+}
+#btnlogin{
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
