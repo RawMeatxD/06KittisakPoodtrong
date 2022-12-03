@@ -26,6 +26,7 @@ p {
     width: 100px;
     height: 120px;
 }
+
 #logo1 {
     width: 50px;
     height: 50px;
@@ -36,8 +37,41 @@ p {
     align-content: center;
     font-size: 25px;
 }
-#btnlogin{
+
+#btnlogin {
     padding-left: 50px;
     padding-right: 50px;
 
+}
+
+#btwh {
+    font-size: clamp(0.50px, 1vw, 50px);
+    border: none;
+    height: 350%;
+    letter-spacing: 0.5px;
+    line-height: 350%;
+    padding: 0px 1rem;
+    pointer-events: all;
+    position: relative;
+    text-decoration-line: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 20%;
+    margin-right: 1200px;
+}
+
+.card-text {
+    font-size: clamp(12px, 2.5vw, 50px);
+    padding-bottom: 0;
+    text-align: left;
+    
+}
+
+#bodytextonpic {
+    margin-bottom: 10%;
+}
+
+p {
+
+    margin: 0;
 }
