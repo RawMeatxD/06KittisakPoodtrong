@@ -44,15 +44,16 @@
 #logo{
     width: 100px;
     height: 70px;
+    
 }
 #logo2{
     width: 100px;
     height: 100px;
+    
 }
 #einfo{
     text-align: center;
 }
 #edinfo{
-    text-align: left;
+    text-align: center;
 }
-

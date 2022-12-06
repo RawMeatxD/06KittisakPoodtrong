@@ -5,8 +5,12 @@
 
 .GF {
     align-content: center;
-    font-size: 50px;
+    font-size: clamp(50px, 2.5vw, 50px);
     margin-top: 100px;
+    font-weight: bolder;
+}
+#GFinfo{
+    font-size: clamp(20px, 2.5vw, 50px);
 }
 
 #pic2 {
@@ -36,19 +40,24 @@ p {
 #footerpad {
     align-content: center;
     font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
 }
 
-#btnlogin {
-    padding-left: 50px;
-    padding-right: 50px;
+.footer-pad{
+    margin-top: 10px;
+}
 
+#btnlogin{
+    padding:5%;
 }
 
 #btwh {
-    font-size: clamp(0.50px, 1vw, 50px);
+    font-size: clamp(4px, 1vw, 50px);
     border: none;
     height: 350%;
-    letter-spacing: 0.5px;
     line-height: 350%;
     padding: 0px 1rem;
     pointer-events: all;
@@ -61,7 +70,7 @@ p {
 }
 
 .card-text {
-    font-size: clamp(12px, 2.5vw, 50px);
+    font-size: clamp(20px, 2.5vw, 50px);
     padding-bottom: 0;
     text-align: left;
     
@@ -72,6 +81,10 @@ p {
 }
 
 p {
-
     margin: 0;
+}
+#c{
+    margin-top: 10px;
+    font-size: clamp(10px, 2.5vw, 50px);
+    margin-bottom: 10px;
 }
