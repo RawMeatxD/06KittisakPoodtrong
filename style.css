@@ -10,7 +10,7 @@
     font-weight: bolder;
 }
 #GFinfo{
-    font-size: clamp(20px, 2.5vw, 50px);
+    font-size: clamp(20px, 2.5vw, 30px);
 }
 
 #pic2 {
